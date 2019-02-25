@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "117019357417",
+    "firebase_url": "https://ohmytest-ebb47.firebaseio.com",
+    "project_id": "ohmytest-ebb47",
+    "storage_bucket": "ohmytest-ebb47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117019357417:android:e392c7f378a2eb48",
+        "android_client_info": {
+          "package_name": "com.example.checkmovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117019357417-0rigg4p9nm944jgenu6vemm65aftjr87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.checkmovie",
+            "certificate_hash": "79701e3b8d3fb8542f00838cf832a3408957e4fb"
+          }
+        },
+        {
+          "client_id": "117019357417-sdmsvabseg1p2eo6d21fs40pm0cu275q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.checkmovie",
+            "certificate_hash": "9872ed7876673a82b61d48640e99c5ca4baba580"
+          }
+        },
+        {
+          "client_id": "117019357417-6npcpn1uc43btaq29saffma9l51ft3iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALhlCdJQIDnZOTHE2pekQ9S32yRBrhzSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117019357417-6npcpn1uc43btaq29saffma9l51ft3iq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

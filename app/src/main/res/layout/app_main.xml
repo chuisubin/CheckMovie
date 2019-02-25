@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+
+        android:id="@+id/appMain_appBarLayout_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/appMain_toolbar_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorError"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/appMain_viewPager_view"
+        android:layout_height="0dp"
+
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appMain_appBarLayout_view" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        />
+
+
+    <RadioGroup
+
+        android:id="@+id/appMain_radioButtonGroup_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+        <RadioButton
+            android:id="@+id/appMain_radoButton_fragA"
+            style="@style/bottom_tag_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/frag_a_drawable_selector"
+            android:padding="3dp"
+            android:text="@string/fraga" />
+
+        <RadioButton
+            android:id="@+id/rappMain_radoButton_fragB"
+            style="@style/bottom_tag_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/frag_a_drawable_selector"
+            android:padding="3dp"
+            android:text="@string/fragb" />
+
+        <RadioButton
+            android:id="@+id/appMain_radoButton_fragC"
+            style="@style/bottom_tag_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/frag_c_drawable_selector"
+
+            android:padding="3dp"
+            android:text="@string/fragc" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

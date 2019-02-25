@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        android:gravity="center"
+        android:textSize="49dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_editView_email"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"/>
+    <EditText
+        android:id="@+id/login_edit_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/password"/>
+    <CheckBox
+        android:id="@+id/login_checkBox"
+        android:textColor="#606056"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save your email and password"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        android:id="@+id/login_button_login"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signUp"
+        android:id="@+id/login_button_signUp"/>
+
+
+</LinearLayout>

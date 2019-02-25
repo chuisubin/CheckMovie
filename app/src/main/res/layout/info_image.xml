@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Image_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/imageInfo_textView_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/title"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageInfo_imageView_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="8dp"
+
+                android:scaleType="fitCenter" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/imageInfo_textView_UserName"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/user"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/imageInfo_textView_uplaodDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/date"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/imageInfo_textView_imageInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/info"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#DDDDDD"/>
+
+            <EditText
+                android:id="@+id/imageInfo_edit_reply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/reply_message"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/imageInfo_Button_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reply" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#DDDDDD"/>
+
+            <ListView
+                android:id="@+id/imageInfo_listView"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="600dp">
+
+            </ListView>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
